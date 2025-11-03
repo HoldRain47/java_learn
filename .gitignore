@@ -28,3 +28,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+### 모듈구성
+java_learn.iml
