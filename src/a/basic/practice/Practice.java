@@ -1,4 +1,4 @@
-package a.basic;
+package a.basic.practice;
 
 import java.util.Scanner;
 
@@ -32,6 +32,11 @@ public class Practice {
       System.out.printf("%d은 윤년 입니다", year);
     else if (year % 400 == 0)
       System.out.printf("%d은 윤년 입니다", year);
+
+    if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+      System.out.printf("%d은 윤년 입니다", year);
+    else
+    System.out.printf("%d은 윤년아님", year);
 
     System.out.println("문제 4: 삼각형 유효성 검사 ");
     int a = 3, b = 4, c = 5;
