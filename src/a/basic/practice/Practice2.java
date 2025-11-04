@@ -25,14 +25,16 @@ public class Practice2 {
     }
     System.out.println("-----------");
 
-    String star2 = "";
+
     System.out.println("문제 3: 별 찍기 패턴 2");
+    String star2 = "";
     for(int i = 0; i <5; i++){
       star2 = star.substring(i);
       System.out.println(star2);
     }
     System.out.println("-----------");
 
+    System.out.println("문제 4: 별 찍기 패턴 3");
     StringBuilder star3 = new StringBuilder("*");
     String blank = "     ";
     for(int i = 0; i <5; i++){
@@ -40,6 +42,7 @@ public class Practice2 {
       blank = blank.substring(1);
       star3.append("**");
     }
+    System.out.println("-----------");
 
     System.out.println("문제 5: 약수 구하기");
     int[] arr1 = new int[8];
@@ -59,10 +62,10 @@ public class Practice2 {
     System.out.println("문제 6: 소수 판별");
 
 
-    int num6 = 0;
+    int num6 = 17;
     int num6Sum = 0;
     for (int i = 1; i < 18; i++){
-      if(17 % i == 0){
+      if(num6 % i == 0){
         num6Sum++;
       }
     }
