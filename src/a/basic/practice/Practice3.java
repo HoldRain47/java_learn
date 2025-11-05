@@ -35,6 +35,7 @@ public class Practice3 {
     for(int i = 1; i < arr3.length; i++ ){
       if(arr3[i] == target3){
         flag3 = i;
+        break;
       }
     }
     System.out.printf("30의 인덱스: %d 개\n",flag3);
