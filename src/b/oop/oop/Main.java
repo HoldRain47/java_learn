@@ -1,7 +1,7 @@
 package b.oop.oop;
 
-import b.oop.Circle;
-import b.oop.Rectangle;
+import b.oop.oop.Circle;
+import b.oop.oop.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,12 +39,12 @@ public class Main {
         System.out.println(d1.age);
 
 
-
-        BA ba = new BA();
-        ba.balance = 10000;
-
-        ba.balance = 99999;
-        ba.deposit(99999);
+//
+//        BA ba = new BA();
+//        ba.balance = 10000;
+//
+//        ba.balance = 99999;
+//        ba.deposit(99999);
 
 
 
