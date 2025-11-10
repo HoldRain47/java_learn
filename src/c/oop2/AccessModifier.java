@@ -10,5 +10,7 @@ public class AccessModifier {
         pc.value = 100;
         // public
         pc.value2 = "test msg";
+
+
     }
 }
